@@ -1,0 +1,41 @@
+.text-main{
+  color:greenyellow
+}
+.bg-main{
+  background-color: greenyellow;
+}
+.text-light{
+  color:white
+}
+a,a:hover{
+  color:black;
+  text-decoration: none;
+}
+.font-sm{
+  font-size: 14px;
+}
+.bg-main-light{
+  background-color: white !important;
+}
+body{
+  font-family: var(--fontfamily);
+}
+.rating-color{
+  color:yellow;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.product:hover{
+  box-shadow: 1px green !important ;
+  border:1px solid green !important;
+}
+.product .btn{
+  opacity: 0 !important;
+  transition: transform 1s,opacity 1s !important;
+  transform:  translateY(100%) !important;
+}
+.product:hover  .btn{
+  opacity: 1 !important;
+  transform: translateY(0%) !important;
+}
